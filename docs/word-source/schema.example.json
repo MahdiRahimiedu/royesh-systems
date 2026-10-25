@@ -1,0 +1,15 @@
+{
+  "service": "personnel",
+  "system_name": "سامانه پرسنلی",
+  "documents": {
+    "architecture": {"intro": "", "sections": [{"heading": "", "paragraphs": [""], "bullets": [], "table": {"headers": [], "rows": []}, "code": []}]},
+    "database": {"intro": "", "sections": []},
+    "backend": {"intro": "", "sections": []},
+    "frontend": {"intro": "", "sections": []},
+    "user_api": {"intro": "", "sections": []}
+  },
+  "table_notes": {"TABLE_NAME": "شرح مسئولیت جدول و قواعد مهم"},
+  "field_notes": {"TABLE_NAME.COLUMN_NAME": "شرح معنای فیلد"},
+  "endpoint_notes": {"POST /api/v1/EXAMPLE": {"purpose": "کاربرد", "access": "admin یا manager", "rules": "قاعده یا تعارض مهم"}},
+  "examples": [{"title": "عنوان نمونه بدون نشانه نگارشی", "method": "POST", "path": "/api/v1/EXAMPLE", "body": {}, "explanation": "شناسه‌ها نمونه‌اند و باید از پاسخ قبلی جایگزین شوند"}]
+}

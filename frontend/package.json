@@ -1,0 +1,33 @@
+{
+  "name": "royesh-operations",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/frontend.test.mjs",
+    "dev": "node scripts/start.mjs personnel dev",
+    "dev:personnel": "node scripts/start.mjs personnel dev",
+    "dev:inventory": "node scripts/start.mjs inventory dev",
+    "dev:commerce": "node scripts/start.mjs commerce dev",
+    "build": "node scripts/build.mjs",
+    "start:personnel": "node scripts/start.mjs personnel start",
+    "start:inventory": "node scripts/start.mjs inventory start",
+    "start:commerce": "node scripts/start.mjs commerce start",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write src scripts next.config.ts",
+    "format:check": "prettier --check src scripts next.config.ts"
+  },
+  "dependencies": {
+    "@fontsource/vazirmatn": "^5.2.8",
+    "lucide-react": "^0.468.0",
+    "next": "16.3.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.7.0",
+    "prettier": "3.9.9"
+  }
+}
